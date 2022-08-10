@@ -1,6 +1,6 @@
 * {
   padding: 0px;
-  margin: 30px;
+  margin: 0px;
 }
 /* #bank-title {
   margin-top: 100px; !important;
@@ -11,7 +11,77 @@
 .login-area {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
-  margin-top: 100px;
-  padding: 40px;
+  margin-top: 130px;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 50px;
   background-color: #f9f9f9;
+}
+#transetion-area {
+  display: none;
+}
+#diposit-withdraw-box {
+  display: none;
+}
+/* .money-area {
+  margin-top: 100px;
+  margin-left: 100px;
+} */
+.row {
+  margin-top: 50px;
+  /* margin-left: 100px; */
+}
+/* .admin-page {
+  margin-top: 40px;
+  margin-bottom: 20px;
+} */
+.deposit {
+  color: white;
+  margin-left: 100px;
+  height: 160px;
+  width: 250px;
+  background-color: rgb(189, 0, 54);
+  border-radius: 10px;
+  padding-top: 40px;
+}
+.deposit h5 {
+  font-size: 1.5em;
+}
+.withdraw {
+  color: white;
+  margin-left: 60px;
+  height: 160px;
+  width: 250px;
+  background-color: rgb(242, 185, 0);
+  border-radius: 10px;
+  padding-top: 40px;
+}
+.withdraw h5 {
+  font-size: 1.5em;
+}
+.balance {
+  color: white;
+  margin-right: 50px;
+  height: 160px;
+  width: 250px;
+  background-color: rgb(242, 83, 48);
+  border-radius: 10px;
+  padding-top: 40px;
+}
+.balance h5 {
+  font-size: 1.5em;
+}
+.withdraw-bar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: rgb(249, 249, 249);
+  padding: 35px;
+  padding-left: 50px;
+  border-radius: 8px;
+}
+.deposit-bar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: rgb(249, 249, 249);
+  padding: 35px;
+  padding-left: 50px;
+  border-radius: 8px;
 }
